@@ -1,4 +1,6 @@
-﻿import { ImageResponse } from "next/og";
+import { ImageResponse } from "next/og";
+
+export const dynamic = "force-static";
 
 export const size = {
   width: 1200,
@@ -110,11 +112,12 @@ export default function OpenGraphImage() {
               <div style={{ fontSize: "16px", textTransform: "uppercase", letterSpacing: "0.18em", color: "#7dd3fc", fontWeight: 700 }}>
                 Export kit
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "20px" }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginTop: "20px" }}>
                 {["PDF", "MD", "TXT", "JSON"].map((format) => (
                   <div
                     key={format}
                     style={{
+                      width: "48%",
                       borderRadius: "18px",
                       background: "rgba(255,255,255,0.08)",
                       border: "1px solid rgba(255,255,255,0.12)",
@@ -128,7 +131,7 @@ export default function OpenGraphImage() {
                   </div>
                 ))}
               </div>
-              <div style={{ marginTop: "18px", borderRadius: "22px", background: "rgba(255,255,255,0.08)", padding: "18px" }}>
+              <div style={{ display: "flex", flexDirection: "column", marginTop: "18px", borderRadius: "22px", background: "rgba(255,255,255,0.08)", padding: "18px" }}>
                 <div style={{ fontSize: "14px", textTransform: "uppercase", letterSpacing: "0.16em", color: "#cbd5e1", fontWeight: 700 }}>
                   Privacy
                 </div>
