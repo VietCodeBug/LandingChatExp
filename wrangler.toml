@@ -1,0 +1,11 @@
+name = "LandingChatExp"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2025-01-01"
+
+[site]
+bucket = "./out"
+entry-point = "workers-site"
