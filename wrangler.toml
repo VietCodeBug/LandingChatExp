@@ -1,4 +1,4 @@
-name = "LandingChatExp"
+name = "landing-chat-exp"
 type = "javascript"
 account_id = ""
 workers_dev = true
