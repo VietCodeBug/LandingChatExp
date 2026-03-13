@@ -1,0 +1,282 @@
+﻿{
+  "meta": {
+    "title": "AI Chat Exporter cho ChatGPT, Gemini, Claude và Perplexity",
+    "description": "Cài AI Chat Exporter để lưu cuộc trò chuyện ChatGPT, Gemini, Claude và Perplexity thành PDF, Markdown, Text, JSON và ảnh chụp đẹp mắt với quy trình local-first riêng tư."
+  },
+  "nav": {
+    "badge": "Xuất chat AI theo hướng local-first",
+    "links": [
+      { "href": "#features", "label": "Tính năng" },
+      { "href": "#privacy", "label": "Riêng tư" },
+      { "href": "#pricing", "label": "Bảng giá" },
+      { "href": "#faq", "label": "FAQ" },
+      { "href": "#contact", "label": "Liên hệ" }
+    ],
+    "install": "Cài tiện ích"
+  },
+  "hero": {
+    "eyebrow": "Tiện ích Chrome cho hội thoại AI",
+    "title": "Biến đoạn chat AI thành file xuất gọn đẹp để lưu, chia sẻ và dùng lại thật sự.",
+    "description": "Lưu cuộc trò chuyện từ ChatGPT, Gemini, Claude và Perplexity thành PDF, Markdown, Text, JSON hoặc ảnh chụp sắc nét chỉ trong vài giây. Có thể xuất toàn bộ hội thoại hoặc chỉ những tin nhắn bạn cần, với luồng local-first riêng tư hơn.",
+    "primaryCta": "Cài tiện ích",
+    "secondaryCta": "Xem tính năng",
+    "badges": [
+      "Xuất toàn bộ hội thoại hoặc tin nhắn đã chọn",
+      "Lấy tất cả code block chỉ với 1 lần bấm",
+      "Mọi xử lý đều chạy trên máy để giữ riêng tư"
+    ],
+    "stats": [
+      { "value": "4 nền tảng", "label": "Hỗ trợ ngay từ đầu" },
+      { "value": "1 lần bấm", "label": "Để xuất 1 cuộc trò chuyện" },
+      { "value": "0 tải lên", "label": "Nội dung nằm trên thiết bị của bạn" }
+    ],
+    "floatingCards": [
+      {
+        "title": "Local-first",
+        "subtitle": "Không tải raw chat lên ngoài"
+      },
+      {
+        "title": "4 ứng dụng AI",
+        "subtitle": "ChatGPT, Gemini, Claude, Perplexity"
+      },
+      {
+        "title": "Code sẵn sàng",
+        "subtitle": "Lấy toàn bộ code block rất nhanh"
+      }
+    ],
+    "previewLabel": "Xem trước xuất file",
+    "previewConversation": "Xem nhanh hội thoại",
+    "previewSidebarTitle": "Bộ công cụ xuất",
+    "previewSelection": "Tin nhắn đã chọn",
+    "previewPrivacy": "Chỉ xử lý cục bộ. Nội dung chat không bị gửi lên máy chủ bên ngoài."
+  },
+  "problem": {
+    "eyebrow": "Vấn đề",
+    "title": "Những cuộc trò chuyện AI giá trị rất dễ bị trôi mất.",
+    "description": "Founder, team, nhà nghiên cứu và lập trình viên đều dùng AI mỗi ngày, nhưng các câu trả lời quan trọng lại bị mắc kẹt trong cửa sổ chat. Việc lưu lại gọn gàng vẫn rất bất tiện.",
+    "items": [
+      {
+        "title": "Nội dung quan trọng bị chìm xuống",
+        "description": "Prompt hay, quyết định và tổng hợp giá trị dễ bị trộn trong các thread dài, rất khó tìm lại sau này."
+      },
+      {
+        "title": "Chia sẻ vẫn còn loằng ngoằng",
+        "description": "Copy paste sang tài liệu thường vỡ định dạng, mất ngữ cảnh và tốn nhiều thời gian để chỉnh lại."
+      },
+      {
+        "title": "Code nằm rải trong hội thoại",
+        "description": "Lập trình viên thường cần lấy toàn bộ code block từ một session, không ai muốn mò tay dò từng tin nhắn."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Tính năng",
+    "title": "Đầy đủ công cụ để lưu hội thoại AI đúng cách.",
+    "description": "Được thiết kế cho những người xem cuộc trò chuyện AI là tài sản công việc thật sự, không phải tab tạm thời.",
+    "items": [
+      {
+        "title": "Xuất nhiều định dạng",
+        "description": "Xuất sang PDF, Markdown, Text và JSON để đưa vào tài liệu, kho lưu trữ, handoff hoặc kho kiến thức.",
+        "detail": "Bạn có thể chọn xuất cả hội thoại hoặc chỉ những tin nhắn cần thiết."
+      },
+      {
+        "title": "Ảnh chụp hội thoại đẹp mắt",
+        "description": "Tạo ảnh chụp sạch sẽ, sẵn sàng để trình bày mà không cần crop thủ công hay xử lý giao diện browser.",
+        "detail": "Rất hợp cho tutorial, tài liệu support, cập nhật cho khách hàng và bài đăng social."
+      },
+      {
+        "title": "Trích xuất code block",
+        "description": "Gom toàn bộ code block trong hội thoại thành một output sạch sẽ để copy và tái sử dụng nhanh hơn.",
+        "detail": "Phù hợp cho debug, prototype và handoff cho dev."
+      },
+      {
+        "title": "Hỗ trợ nhiều nền tảng AI",
+        "description": "Dùng cùng một quy trình xuất trên ChatGPT, Gemini, Claude và Perplexity.",
+        "detail": "Xử lý cục bộ nhanh giúp hội thoại nhạy cảm luôn nằm trong tầm kiểm soát của bạn."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Cách hoạt động",
+    "title": "3 bước từ hội thoại đến file xuất.",
+    "items": [
+      {
+        "title": "Cài tiện ích",
+        "description": "Thêm AI Chat Exporter từ Chrome Web Store và ghim lên thanh công cụ."
+      },
+      {
+        "title": "Mở cuộc trò chuyện AI",
+        "description": "Truy cập ChatGPT, Gemini, Claude hoặc Perplexity và mở cuộc trò chuyện bạn muốn lưu."
+      },
+      {
+        "title": "Bấm xuất",
+        "description": "Chọn output bạn cần, gồm PDF, Markdown, Text, JSON, ảnh chụp hội thoại hoặc code đã trích xuất."
+      }
+    ]
+  },
+  "supported": {
+    "eyebrow": "Nền tảng hỗ trợ",
+    "title": "Một quy trình thống nhất cho các công cụ AI mà team đang dùng.",
+    "description": "Không cần nhớ mẹo xuất riêng cho từng nền tảng nữa.",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "description": "Lưu prompt library, research thread và các bản tổng hợp gọn đẹp."
+      },
+      {
+        "name": "Gemini",
+        "description": "Giữ các buổi lập kế hoạch, ghi chú và tài liệu sẵn sàng để dùng."
+      },
+      {
+        "name": "Claude",
+        "description": "Lưu sạch sẽ các cuộc trò chuyện dài về chiến lược, viết nội dung và phân tích."
+      },
+      {
+        "name": "Perplexity",
+        "description": "Lưu lại câu trả lời có nguồn tham khảo và các cuộc chat tìm kiếm để dùng sau."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Riêng tư và tin cậy",
+    "title": "Làm cho workflow nhạy cảm, không chỉ để trông hào nhoáng.",
+    "description": "AI Chat Exporter được thiết kế cho những người vừa cần output đẹp vừa quan tâm đến quyền kiểm soát và sự riêng tư.",
+    "items": [
+      {
+        "title": "Xử lý local-first",
+        "description": "Nội dung raw chat của bạn nằm trên thiết bị trong lúc xuất thay vì bị đẩy sang máy chủ bên ngoài."
+      },
+      {
+        "title": "Phù hợp cho công việc thật",
+        "description": "Dùng cho ghi chú nghiên cứu, quyết định sản phẩm, log support và cuộc trò chuyện của dev mà không gặp ma sát xuất file như trước."
+      },
+      {
+        "title": "Quy trình đơn giản, minh bạch",
+        "description": "Mở chat, chọn phần cần lấy và xuất. Không ép cloud sync và không có bước lòng vòng khó hiểu."
+      }
+    ],
+    "visualTitle": "Riêng tư ngay từ thiết kế",
+    "visualDescription": "Bạn chọn, xuất và chỉ chia sẻ kết quả khi cần. Hội thoại gốc ở lại trong browser trong quá trình xử lý.",
+    "badges": [
+      "Xử lý cục bộ",
+      "Không ép đồng bộ",
+      "Hợp cho chat nhạy cảm"
+    ]
+  },
+  "demo": {
+    "eyebrow": "Ảnh chụp và demo",
+    "title": "File xuất nhìn là thấy sẵn sàng để dùng.",
+    "description": "Biến cửa sổ chat loằng ngoằng thành file và hình ảnh để lưu, chia sẻ hoặc đưa vào quy trình làm việc ngay lập tức.",
+    "items": [
+      {
+        "label": "PDF",
+        "title": "File PDF sẵn sàng gửi khách hàng",
+        "description": "Cấu trúc rõ ràng cho brief, báo cáo, tài liệu đào tạo và lưu trữ."
+      },
+      {
+        "label": "Markdown",
+        "title": "Markdown để di chuyển",
+        "description": "Đưa hội thoại vào Notion, GitHub, Obsidian hoặc trang docs mà không phải dọn dẹp lại."
+      },
+      {
+        "label": "Screenshot",
+        "title": "Ảnh chụp để chia sẻ ngay",
+        "description": "Biến những đoạn trả lời quan trọng thành hình ảnh gọn đẹp cho docs sản phẩm hoặc social."
+      }
+    ],
+    "codeCard": {
+      "title": "Lấy tất cả code block trong vài giây",
+      "description": "Gom code từ cả hội thoại vào một luồng trích xuất sạch sẽ để tái sử dụng nhanh hơn."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Bảng giá",
+    "title": "Bắt đầu miễn phí, nâng cấp khi bạn cần nhiều hơn.",
+    "description": "Mô hình đơn giản để người dùng vào nhanh và mở rộng giá trị theo thời gian.",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "Miễn phí",
+        "description": "Phù hợp cho ghi chú hằng ngày và xuất cơ bản.",
+        "cta": "Cài gói Free",
+        "features": [
+          "Xuất Markdown",
+          "Xuất Text",
+          "Ảnh chụp hội thoại đẹp"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "Nâng cấp Pro",
+        "description": "Dành cho người dùng nâng cao cần file đẹp hơn và giới hạn cao hơn.",
+        "cta": "Mở khóa Pro",
+        "badge": "Phổ biến nhất",
+        "features": [
+          "Xuất PDF",
+          "Không giới hạn số lần xuất",
+          "Cloud backup"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Những câu hỏi người dùng thường hỏi trước khi cài.",
+    "items": [
+      {
+        "question": "Tiện ích hỗ trợ những nền tảng nào?",
+        "answer": "AI Chat Exporter hỗ trợ ChatGPT, Gemini, Claude và Perplexity."
+      },
+      {
+        "question": "Tiện ích có tải nội dung chat của tôi lên đâu không?",
+        "answer": "Không. Luồng xuất cốt lõi được thiết kế local-first, vì vậy nội dung hội thoại vẫn nằm trên thiết bị của bạn trong quá trình xử lý."
+      },
+      {
+        "question": "Tôi có thể chỉ xuất một phần hội thoại không?",
+        "answer": "Có. Bạn có thể xuất toàn bộ thread hoặc chỉ chọn những tin nhắn quan trọng."
+      },
+      {
+        "question": "Tôi có thể xuất ra những định dạng nào?",
+        "answer": "Tùy theo gói, bạn có thể xuất sang Markdown, Text, PDF, JSON và ảnh chụp hội thoại."
+      },
+      {
+        "question": "Sản phẩm này phù hợp với ai?",
+        "answer": "Sản phẩm này phù hợp với founder, researcher, team vận hành, support, creator và lập trình viên muốn giữ lại những cuộc trò chuyện AI giá trị."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Cần hỗ trợ, hợp tác hoặc hỏi thêm về quyền riêng tư?",
+    "description": "Liên hệ trực tiếp để hỏi về support, feedback, hợp tác launch hoặc các câu hỏi trước khi triển khai tiện ích cho team của bạn.",
+    "button": "Gửi email",
+    "emailLabel": "Email hỗ trợ",
+    "note": "Kênh liên hệ trực tiếp cho support, bug, góp ý và hợp tác.",
+    "items": [
+      {
+        "title": "Hỗ trợ",
+        "description": "Các câu hỏi về xuất file, nền tảng hỗ trợ hoặc lỗi sản phẩm."
+      },
+      {
+        "title": "Hợp tác",
+        "description": "Cơ hội affiliate, integration, media hoặc launch cùng nhau."
+      },
+      {
+        "title": "Câu hỏi riêng tư",
+        "description": "Hỏi rõ cách local-first hoạt động trước khi bạn chia sẻ công cụ này cho khách hàng hoặc team."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Giữ lại những cuộc trò chuyện AI thực sự quan trọng.",
+    "description": "Cài AI Chat Exporter để biến prompt, câu trả lời và code tốt nhất của bạn thành file có thể lưu, tái sử dụng và chia sẻ.",
+    "button": "Cài tiện ích",
+    "secondaryCta": "Xem bảng giá",
+    "note": "Nhanh, thân thiện với riêng tư và phù hợp cho quy trình AI hiện đại."
+  },
+  "footer": {
+    "description": "Xuất hội thoại từ ChatGPT, Gemini, Claude và Perplexity chỉ với một quy trình gọn gàng.",
+    "emailLabel": "Email",
+    "copyright": "Bảo lưu mọi quyền."
+  }
+}

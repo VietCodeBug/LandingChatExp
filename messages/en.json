@@ -1,0 +1,282 @@
+﻿{
+  "meta": {
+    "title": "AI Chat Exporter for ChatGPT, Gemini, Claude and Perplexity",
+    "description": "Install AI Chat Exporter to save ChatGPT, Gemini, Claude, and Perplexity conversations as PDF, Markdown, Text, JSON, and polished screenshots with local-first privacy."
+  },
+  "nav": {
+    "badge": "Local-first exports for AI power users",
+    "links": [
+      { "href": "#features", "label": "Features" },
+      { "href": "#privacy", "label": "Privacy" },
+      { "href": "#pricing", "label": "Pricing" },
+      { "href": "#faq", "label": "FAQ" },
+      { "href": "#contact", "label": "Contact" }
+    ],
+    "install": "Install Extension"
+  },
+  "hero": {
+    "eyebrow": "Chrome extension for AI conversations",
+    "title": "Turn AI chats into polished exports your team can keep, share, and trust.",
+    "description": "Save ChatGPT, Gemini, Claude, and Perplexity conversations as PDF, Markdown, Text, JSON, or crisp screenshots in seconds. Export full threads or just the messages you need, all with local-first privacy.",
+    "primaryCta": "Install Extension",
+    "secondaryCta": "See Features",
+    "badges": [
+      "Export full conversations or selected messages",
+      "Copy every code block in one click",
+      "Everything runs locally for privacy"
+    ],
+    "stats": [
+      { "value": "4 platforms", "label": "Supported from day one" },
+      { "value": "1 click", "label": "To export a conversation" },
+      { "value": "0 uploads", "label": "Chats stay on your device" }
+    ],
+    "floatingCards": [
+      {
+        "title": "Local-first",
+        "subtitle": "No raw chat uploads"
+      },
+      {
+        "title": "4 AI apps",
+        "subtitle": "ChatGPT, Gemini, Claude, Perplexity"
+      },
+      {
+        "title": "Code ready",
+        "subtitle": "Extract every code block fast"
+      }
+    ],
+    "previewLabel": "Live export preview",
+    "previewConversation": "Conversation snapshot",
+    "previewSidebarTitle": "Export kit",
+    "previewSelection": "Selected messages",
+    "previewPrivacy": "Local processing only. No chat content sent to external servers."
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Great AI conversations disappear fast.",
+    "description": "Teams, founders, researchers, and developers rely on AI chats every day, but the best answers stay locked inside chat windows. Saving them cleanly is still frustrating.",
+    "items": [
+      {
+        "title": "Important answers get buried",
+        "description": "High-value prompts, decisions, and summaries vanish into long threads that are hard to revisit later."
+      },
+      {
+        "title": "Sharing is messy",
+        "description": "Copy-pasting into docs breaks formatting, loses context, and wastes time when you need something presentable."
+      },
+      {
+        "title": "Code gets lost in the thread",
+        "description": "Developers often need every code block from a session, not a manual scavenger hunt through dozens of messages."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Everything you need to save AI chats the right way.",
+    "description": "Built for people who treat AI conversations like real working assets, not temporary tabs.",
+    "items": [
+      {
+        "title": "Export in multiple formats",
+        "description": "Export to PDF, Markdown, Text, and JSON for docs, archives, handoffs, and knowledge bases.",
+        "detail": "Choose a full conversation or export only selected messages."
+      },
+      {
+        "title": "Beautiful chat screenshots",
+        "description": "Capture clean, presentation-ready screenshots without cluttered browser chrome or messy crop work.",
+        "detail": "Perfect for tutorials, support docs, client updates, and social posts."
+      },
+      {
+        "title": "Code block extraction",
+        "description": "Pull every code block from a conversation into one clean output that is ready to copy and reuse.",
+        "detail": "Ideal for debugging sessions, prototypes, and developer handoffs."
+      },
+      {
+        "title": "Multi-AI support",
+        "description": "Use the same export workflow across ChatGPT, Gemini, Claude, and Perplexity.",
+        "detail": "Fast local processing keeps sensitive chats private and under your control."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Three steps from chat to export.",
+    "items": [
+      {
+        "title": "Install the extension",
+        "description": "Add AI Chat Exporter from the Chrome Web Store and pin it to your browser."
+      },
+      {
+        "title": "Open your AI chat",
+        "description": "Go to ChatGPT, Gemini, Claude, or Perplexity and open any conversation you want to save."
+      },
+      {
+        "title": "Click export",
+        "description": "Choose the output you need, including PDF, Markdown, Text, JSON, screenshots, or extracted code."
+      }
+    ]
+  },
+  "supported": {
+    "eyebrow": "Supported platforms",
+    "title": "One workflow across the AI tools your team already uses.",
+    "description": "No more remembering different export tricks on every platform.",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "description": "Save prompt libraries, research threads, and polished summaries."
+      },
+      {
+        "name": "Gemini",
+        "description": "Keep planning sessions, notes, and document-ready exports organized."
+      },
+      {
+        "name": "Claude",
+        "description": "Archive long-form strategy, writing, and analysis conversations cleanly."
+      },
+      {
+        "name": "Perplexity",
+        "description": "Capture sourced answers and search-driven chats for later reference."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privacy and trust",
+    "title": "Built for sensitive workflows, not just flashy exports.",
+    "description": "AI Chat Exporter is designed for people who care about privacy, control, and clean output quality at the same time.",
+    "items": [
+      {
+        "title": "Local-first processing",
+        "description": "Your raw chat content stays on your device during the export flow instead of being pushed to external servers."
+      },
+      {
+        "title": "Made for real work",
+        "description": "Use it for research notes, product decisions, support logs, and developer conversations without the usual export friction."
+      },
+      {
+        "title": "Simple, transparent workflow",
+        "description": "Open a chat, pick what you want, and export. No forced cloud sync and no confusing extra steps."
+      }
+    ],
+    "visualTitle": "Private by design",
+    "visualDescription": "Select, export, and share the result when you want to. The original conversation stays in your browser during processing.",
+    "badges": [
+      "Local processing",
+      "No forced sync",
+      "Better for sensitive chats"
+    ]
+  },
+  "demo": {
+    "eyebrow": "Screenshots and demo",
+    "title": "Exports that already look ready before you touch them.",
+    "description": "Turn messy chat windows into files and visuals you can store, share, or drop into your workflow immediately.",
+    "items": [
+      {
+        "label": "PDF",
+        "title": "Client-ready PDF export",
+        "description": "Structured pages for briefings, reports, training docs, and archives."
+      },
+      {
+        "label": "Markdown",
+        "title": "Portable Markdown output",
+        "description": "Move conversations into Notion, GitHub, Obsidian, or docs sites without cleanup."
+      },
+      {
+        "label": "Screenshot",
+        "title": "Shareable visual captures",
+        "description": "Turn key responses into polished screenshots for product docs or social posts."
+      }
+    ],
+    "codeCard": {
+      "title": "Copy every code block in seconds",
+      "description": "Bundle code from an entire conversation into one clean extraction flow for faster reuse."
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Start free, upgrade when you need more power.",
+    "description": "A simple product funnel for getting users in fast and expanding value over time.",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "Free forever",
+        "description": "For everyday note-taking and lightweight exports.",
+        "cta": "Install Free",
+        "features": [
+          "Markdown export",
+          "Text export",
+          "Beautiful screenshot export"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "Pro upgrade",
+        "description": "For power users who need polished outputs and higher limits.",
+        "cta": "Unlock Pro",
+        "badge": "Most popular",
+        "features": [
+          "PDF export",
+          "Unlimited exports",
+          "Cloud backup"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions people ask before installing.",
+    "items": [
+      {
+        "question": "Which AI platforms are supported?",
+        "answer": "AI Chat Exporter works with ChatGPT, Gemini, Claude, and Perplexity."
+      },
+      {
+        "question": "Does the extension upload my conversations anywhere?",
+        "answer": "No. The core export flow is local-first, so your chat content stays on your device during processing."
+      },
+      {
+        "question": "Can I export only part of a conversation?",
+        "answer": "Yes. You can export an entire thread or choose selected messages when you only need the important parts."
+      },
+      {
+        "question": "What formats can I export to?",
+        "answer": "Depending on your plan, you can export chats to Markdown, Text, PDF, JSON, and visual screenshots."
+      },
+      {
+        "question": "Who is this built for?",
+        "answer": "It is designed for founders, researchers, teams, support operators, creators, and developers who want to keep high-value AI conversations."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Need help, partnerships, or privacy clarification?",
+    "description": "Reach out directly for support, feedback, launch collaboration, or questions before rolling the extension out to your team.",
+    "button": "Email us",
+    "emailLabel": "Support email",
+    "note": "Direct contact for support, bugs, feedback, and partnerships.",
+    "items": [
+      {
+        "title": "Support",
+        "description": "Questions about exports, supported platforms, or product bugs."
+      },
+      {
+        "title": "Partnerships",
+        "description": "Affiliate, integration, media, or launch collaboration opportunities."
+      },
+      {
+        "title": "Privacy questions",
+        "description": "Ask how the local-first workflow works before you share the tool with clients or teams."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Keep the AI conversations that matter.",
+    "description": "Install AI Chat Exporter and turn your best prompts, answers, and code into files you can save, reuse, and share.",
+    "button": "Install Extension",
+    "secondaryCta": "View Pricing",
+    "note": "Fast, privacy-friendly, and built for modern AI workflows."
+  },
+  "footer": {
+    "description": "Export conversations from ChatGPT, Gemini, Claude, and Perplexity with one clean workflow.",
+    "emailLabel": "Email",
+    "copyright": "All rights reserved."
+  }
+}
