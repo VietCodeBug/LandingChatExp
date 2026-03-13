@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -68,7 +68,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={beVietnamPro.variable}>
+    <html lang="en" className={beVietnamPro.variable} suppressHydrationWarning>
       <body>{children}</body>
     </html>
   );
